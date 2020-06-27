@@ -28,10 +28,21 @@ class FirstViewController: UIViewController {
         label3.text = utilities().getLetterAtIndex(str: year, location: 2)
         label4.text = utilities().getLetterAtIndex(str: year, location: 3)
         
+        timer = Timer.scheduledTimer(timeInterval: 0, target: self, selector: #selector(tick), userInfo: nil, repeats: false)
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(tick), userInfo: nil, repeats: true)
     }
     @objc func tick (){
         timeLabel.text = utilities().getCurrentTime()
+        animateView(duration: 1, object: self.view)
+    }
+    
+    func animateView (duration: Double, object: UIView){
+        UIView.animate(withDuration: duration, animations: {
+            object.alpha = 0.5
+            //in this scobe you set end state it will animate to  start state
+        }) { (true) in
+            object.alpha = 1
+        }
     }
 }
 

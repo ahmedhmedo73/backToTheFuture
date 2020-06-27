@@ -67,7 +67,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wmS-RY-nFF" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="96e-Vr-8jv"/>
                             <constraint firstItem="C2p-rW-8cn" firstAttribute="top" secondItem="QA4-VG-xtj" secondAttribute="top" id="9SX-2j-H84"/>
@@ -77,7 +77,6 @@
                             <constraint firstItem="C2p-rW-8cn" firstAttribute="leading" secondItem="y2i-9u-8S7" secondAttribute="trailing" constant="20" id="LAE-BN-TLo"/>
                             <constraint firstItem="eBO-GO-OkC" firstAttribute="top" secondItem="QA4-VG-xtj" secondAttribute="top" id="Oa6-LP-fvt"/>
                             <constraint firstItem="eBO-GO-OkC" firstAttribute="leading" secondItem="C2p-rW-8cn" secondAttribute="trailing" constant="20" id="QAH-Ju-y4f"/>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="eBO-GO-OkC" secondAttribute="trailing" constant="93" id="Ry2-GC-cGT"/>
                             <constraint firstItem="wmS-RY-nFF" firstAttribute="top" secondItem="QA4-VG-xtj" secondAttribute="bottom" constant="50" id="b4D-0p-hyJ"/>
                             <constraint firstItem="QA4-VG-xtj" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-100" id="cKF-dj-Liv"/>
                         </constraints>
@@ -161,7 +160,6 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="i0j-ub-28K" secondAttribute="trailing" constant="90" id="8xN-pJ-Jo8"/>
                             <constraint firstItem="shT-Fa-gcQ" firstAttribute="leading" secondItem="VpL-87-8cl" secondAttribute="trailing" constant="20" id="9i1-XV-QWW"/>
                             <constraint firstItem="VpL-87-8cl" firstAttribute="leading" secondItem="byV-ZS-WAP" secondAttribute="trailing" constant="23" id="BKA-cz-CQe"/>
                             <constraint firstItem="i0j-ub-28K" firstAttribute="top" secondItem="byV-ZS-WAP" secondAttribute="top" id="FRA-NM-b0p"/>
